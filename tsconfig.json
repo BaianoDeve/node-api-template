@@ -2,7 +2,9 @@
   "compilerOptions": {
     "target": "es2017",
     "module": "commonjs",
+    "lib": ["es6"],
     "strict": false,
+    "typeRoots": ["./node_modules/@types", "./src/@types"],
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
